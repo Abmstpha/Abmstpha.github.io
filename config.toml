@@ -1,0 +1,36 @@
+title = "Welcome to Portfolio"
+baseURL = "https://abmstpha.github.io/AbData/"
+languageCode = "en-us"
+theme = "ananke"
+#themesDir = "../.."
+
+MetaDataFormat = "yaml"
+DefaultContentLanguage = "en"
+SectionPagesMenu = "main"
+Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
+googleAnalytics = ""
+enableRobotsTXT = true
+canonifyURLs = true
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[params]
+favicon = ""
+description = "the perfect team for you"
+website = "https://alkanash.wordpress.com/"
+twitter = "https://twitter.com/AbdellahiMou1"
+instagram = ""
+youtube = "https://www.youtube.com/channel/UC8r6Wor8s3ffSJdFcse4zog"
+github = "https://github.com/Abmstpha"
+gitlab = ""
+linkedin = "https://www.linkedin.com/in/abdellahi-el-moustapha/"
+mastodon = ""
+slack = ""
+stackoverflow = ""
+background_color_class = "bg-black"
+featured_image = "/images/gohugo-default-sample-hero-image.jpg"
+recent_posts_number = 2
+
