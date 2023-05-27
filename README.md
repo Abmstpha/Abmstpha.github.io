@@ -1,2 +1,2 @@
 # Ken_Portfolio
-A data science portfolio of Ken Jee.
+A data science portfolio of Abdellahi El Moustapha.
