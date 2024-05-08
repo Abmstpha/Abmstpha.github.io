@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&display=swap");
+
+/* Base styles */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Max width */
+.max-width {
+  @apply lg:mx-auto lg:px-24 xl:px-48 px-5;
+}
+
+/* Background gradient */
+.bg-gradient {
+  @apply bg-gradient-to-r from-sky-500 via-purple-500 to-pink-600;
+}
+
+/* Text gradient */
+.text-gradient {
+  @apply bg-clip-text bg-gradient text-transparent;
+}
+
+/* Section padding */
+.section {
+  @apply pt-10 lg:pt-16 2xl:pt-24; /* Adjusted padding */
+}
+
+/* Text content */
+.text-content {
+  @apply dark:text-light-content text-dark-content;
+  font-size: 14px; /* Smaller font size */
+  line-height: 1.5; /* Adjusted line height */
+  max-width: 100%; /* Ensures text doesn't exceed container width */
+  word-wrap: break-word; /* Ensures words break properly */
+}
+
+/* Body styles */
+body {
+  overflow-x: hidden;
+}
+
+/* Hide scrollbar for Chrome, Safari, and Opera */
+body::-webkit-scrollbar {
+  display: none;
+}
