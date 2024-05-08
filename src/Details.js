@@ -61,7 +61,7 @@ export const workDetails = [
     Company: "The Central Bank of Mauritania",
     Location: "Nouakchott/Mauritania",
     Type: "Internship",
-    Duration: "May 2024 - Present",
+    Duration: "Mars 2024 - Present",
     Responsibilities: [
       "Automating the extraction process of submission reports from primary banks’ data.",
       "Developing an application using Django and React frameworks and using data visualization techniques to unveil valuable insights from the data of primary banks."
