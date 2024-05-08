@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3a0aebc5.css",
+    "main.js": "/static/js/main.20cc09ef.js",
+    "static/media/pro.png": "/static/media/pro.fbf122e42f099095e1df.png",
+    "static/media/project2.png": "/static/media/project2.96764f8cf4912597ea29.png",
+    "static/media/project1.jpg": "/static/media/project1.26dacbe7557349e3053f.jpg",
+    "static/media/project6.png": "/static/media/project6.109816ae46875e013429.png",
+    "static/media/rimai.jpg": "/static/media/rimai.3e31dcf67b83499f45b6.jpg",
+    "static/media/project4.jpeg": "/static/media/project4.06241ea53f6215310d35.jpeg",
+    "static/media/powerbi_logo.png": "/static/media/powerbi_logo.a1be8bd811060c2b8ee3.png",
+    "static/media/r_logo.png": "/static/media/r_logo.4485f79a78250955b9a6.png",
+    "static/media/jupyter_logo.png": "/static/media/jupyter_logo.f892bdf642f3c2a5c574.png",
+    "static/media/project3.png": "/static/media/project3.868a8e0f5e95601d4947.png",
+    "static/media/python_logo.jpg": "/static/media/python_logo.e7e3490e5ef61c9c1514.jpg",
+    "index.html": "/index.html",
+    "main.3a0aebc5.css.map": "/static/css/main.3a0aebc5.css.map",
+    "main.20cc09ef.js.map": "/static/js/main.20cc09ef.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3a0aebc5.css",
+    "static/js/main.20cc09ef.js"
+  ]
+}
