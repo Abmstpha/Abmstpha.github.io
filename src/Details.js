@@ -111,7 +111,7 @@ export const eduDetails = [
     Company: "Higher Polytechnic School (ESP)",
     Location: "Expected 2025",
     Type: "Diploma",
-    Duration: "Data Science Engineering Diploma, Higher Polytechnic School (ESP) Expected 2025",
+    Duration: "Data Science Engineering Diploma",
     Responsibilities: [
       "Focused on proficiency in statistics, Economics, data science, and project management.",
       "Engaged in extracurricular data science projects and competitions to enhance skills."
