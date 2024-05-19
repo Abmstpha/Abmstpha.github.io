@@ -154,8 +154,13 @@ export const extraCurricularActivities = [
 ];
 
 export const achievements = [
+
   {
-    title: "I2COMSAPP-2024 International Conference on Artificial Intelligence Organizer",
+    title: "World Bank Group Youth Summit 2024 Delegate",
+    description: "Selected to virtually attend the World Bank Group Youth Summit 2024, connecting with outstanding youth worldwide and participating in discussions on global development."
+  },
+  {
+    title: "I2COMSAPP-2024: International Conference on Artificial Intelligence Organizer",
     description: "Played a pivotal role in organizing the International Conference on Artificial Intelligence in Mauritania, contributing to the advancement of AI research and networking within the global community."
   },
   {
