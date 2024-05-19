@@ -1,7 +1,7 @@
 // Enter all your detials in this file
 // Logo images
-import logogradient from "./assets/rimai.jpg";
-import logo from "./assets/rimai.jpg";
+import logogradient from "./assets/logo.png";
+import logo from "./assets/logo.png";
 // Profile Image
 import profile from "./assets/pro.png";
 // Tech stack images
