@@ -106,28 +106,28 @@ export const workDetails = [
 
 // Enter your Education Details here
 export const eduDetails = [
-  {
-    Position: "Data Science Engineering Diploma",
-    Company: "Higher Polytechnic School (ESP)",
-    Location: "Expected 2025",
-    Type: "Diploma",
-    Duration: "Data Science Engineering Diploma",
-    Responsibilities: [
-      "Focused on proficiency in statistics, Economics, data science, and project management.",
-      "Engaged in extracurricular data science projects and competitions to enhance skills."
-    ]
-  },
-  {
-    Position: "Two Years Of Intensive Math And Physics Courses ",
-    Company: "Preparatory Classes for Engineering Grandes ´Ecoles (CPGEI)",
-    Location: "2019 - 2021",
-    Type: "Non-Degree Program",
-    Duration: "Preparatory Classes for Engineering Grandes ´Ecoles (CPGEI) 2019 - 2021",
-    Responsibilities: [
-      "Completed an intensive two-year program, focusing on mathematics, physics, and engineering sciences.",
-      "Developed strong problem-solving, working under pressure, and effective time management skills."
-    ]
-  }
+ {
+   Position: "Data Science Engineering Diploma",
+   Company: "Higher Polytechnic School (ESP)",
+   Location: "Noaukchott, Mauritania",
+   Type: "Data Science Engineering Diploma",
+   Duration: "2021-2025",
+   Responsibilities: [
+     "Focused on proficiency in statistics, Economics, data science, and project management.",
+     "Engaged in extracurricular data science projects and competitions to enhance skills."
+   ]
+ },
+ {
+   Position: "Two Years Of Intensive Math And Physics Courses ",
+   Company: "Preparatory Classes for Engineering Grandes ´Ecoles (CPGEI)",
+   Location: "Noaukchott, Mauritania",
+   Type: "Non-Degree Program",
+   Duration: "2019 - 2021",
+   Responsibilities: [
+     "Completed an intensive two-year program, focusing on mathematics, physics, and engineering sciences.",
+     "Developed strong problem-solving, working under pressure, and effective time management skills."
+   ]
+ }
 ];
 
 
