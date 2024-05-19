@@ -54,6 +54,34 @@ export const socialMediaUrl = {
   // instagram: "https://www.instagram.com/",
 };
 
+
+// Enter your Education Details here
+export const eduDetails = [
+ {
+   Position: "Data Science Engineering Diploma",
+   Company: "Higher Polytechnic School (ESP)",
+   Location: "Noaukchott, Mauritania",
+   Type: "Data Science Engineering Diploma",
+   Duration: "2021-2025",
+   Responsibilities: [
+     "Focused on proficiency in statistics, Economics, data science, and project management.",
+     "Engaged in extracurricular data science projects and competitions to enhance skills."
+   ]
+ },
+ {
+   Position: "Two Years Of Intensive Math And Physics Courses ",
+   Company: "Preparatory Classes for Engineering Grandes ´Ecoles (CPGEI)",
+   Location: "Noaukchott, Mauritania",
+   Type: "Non-Degree Program",
+   Duration: "2019 - 2021",
+   Responsibilities: [
+     "Completed an intensive two-year program, focusing on mathematics, physics, and engineering sciences.",
+     "Developed strong problem-solving, working under pressure, and effective time management skills."
+   ]
+ }
+];
+
+
 // Enter your Work Experience here
 export const workDetails = [
   {
@@ -61,7 +89,7 @@ export const workDetails = [
     Company: "The Central Bank of Mauritania",
     Location: "Nouakchott/Mauritania",
     Type: "Internship",
-    Duration: "May 2024 - Present",
+    Duration: "Mars 2024 - Present",
     Responsibilities: [
       "Automating the extraction process of submission reports from primary banks’ data.",
       "Developing an application using Django and React frameworks and using data visualization techniques to unveil valuable insights from the data of primary banks."
@@ -104,31 +132,7 @@ export const workDetails = [
 ];
 
 
-// Enter your Education Details here
-export const eduDetails = [
-  {
-    Position: "Data Science Engineering Diploma",
-    Company: "Higher Polytechnic School (ESP)",
-    Location: "Expected 2025",
-    Type: "Diploma",
-    Duration: "Data Science Engineering Diploma, Higher Polytechnic School (ESP) Expected 2025",
-    Responsibilities: [
-      "Focused on proficiency in statistics, Economics, data science, and project management.",
-      "Engaged in extracurricular data science projects and competitions to enhance skills."
-    ]
-  },
-  {
-    Position: "Two Years Of Intensive Math And Physics Courses ",
-    Company: "Preparatory Classes for Engineering Grandes ´Ecoles (CPGEI)",
-    Location: "2019 - 2021",
-    Type: "Non-Degree Program",
-    Duration: "Preparatory Classes for Engineering Grandes ´Ecoles (CPGEI) 2019 - 2021",
-    Responsibilities: [
-      "Completed an intensive two-year program, focusing on mathematics, physics, and engineering sciences.",
-      "Developed strong problem-solving, working under pressure, and effective time management skills."
-    ]
-  }
-];
+
 
 
 export const extraCurricularActivities = [
