@@ -1,4 +1,4 @@
-// Enter all your detials in this file
+// Enter all your details in this file
 // Logo images
 import logogradient from "./assets/logo.png";
 import logo from "./assets/logo.png";
@@ -22,8 +22,7 @@ import R from './assets/techstack/r_logo.png';
 import powerbi from './assets/techstack/powerbi_logo.png';
 import jupyter from './assets/techstack/jupyter_logo.png';
 
-
-// Porject Images
+// Project Images
 import projectImage1 from "./assets/projects/project1.jpg";
 import projectImage2 from "./assets/projects/project2.png";
 import projectImage3 from "./assets/projects/project3.png";
@@ -39,119 +38,117 @@ export const logos = {
 
 // Enter your Personal Details here
 export const personalDetails = {
-  name: "Abdellahi",
-  tagline: "I am a Data Enthusiast",
+  name: "Abdellahi El-Moustapha",
+  tagline: "AI Master's Student & Data Enthusiast",
   img: profile,
-  about: `I'm passionate about Data Science, Economics, and Statistics, with a focus on applying analytical techniques to solve real-world problems. With a strong foundation in statistical analysis and AI, I excel in deriving valuable insights from complex datasets. My dedication to continuous learning and collaborative teamwork ensures precise and innovative solutions that drive meaningful impact.`,
+  about: `I'm passionate about Data Science, AI, and Statistics, with a focus on applying analytical techniques to solve real-world problems. With a strong foundation in data analysis and predictive modeling, I excel in deriving valuable insights from complex datasets. My dedication to continuous learning and collaborative teamwork ensures innovative solutions that drive meaningful impact.`,
 };
-
 
 // Enter your Social Media URLs here
 export const socialMediaUrl = {
-  linkdein: "https://www.linkedin.com/in/abdellahi-el-moustapha/",
+  linkedin: "https://www.linkedin.com/in/abmstpha/",
   github: "https://github.com/Abmstpha",
-  // twitter: "https://twitter.com/",
-  // instagram: "https://www.instagram.com/",
 };
-
 
 // Enter your Education Details here
 export const eduDetails = [
- {
-   Position: "Data Science Engineering Diploma",
-   Company: "Higher Polytechnic School (ESP)",
-   Location: "Noaukchott, Mauritania",
-   Type: "Data Science Engineering Diploma",
-   Duration: "2021-2025",
-   Responsibilities: [
-     "Focused on proficiency in statistics, Economics, data science, and project management.",
-     "Engaged in extracurricular data science projects and competitions to enhance skills."
-   ]
- },
- {
-   Position: "Two Years Of Intensive Math And Physics Courses ",
-   Company: "Preparatory Classes for Engineering Grandes ´Ecoles (CPGEI)",
-   Location: "Noaukchott, Mauritania",
-   Type: "Non-Degree Program",
-   Duration: "2019 - 2021",
-   Responsibilities: [
-     "Completed an intensive two-year program, focusing on mathematics, physics, and engineering sciences.",
-     "Developed strong problem-solving, working under pressure, and effective time management skills."
-   ]
- }
-];
-
-
-// Enter your Work Experience here
-export const workDetails = [
   {
-    Position: "Data Engineering Internship",
-    Company: "The Central Bank of Mauritania",
-    Location: "Nouakchott/Mauritania",
-    Type: "Internship",
-    Duration: "Mars 2024 - Present",
+    Position: "Master of Data Science and AI",
+    Company: "Aivancity School for Technology, Business and Society",
+    Location: "Paris, France",
+    Type: "Master's Program",
+    Duration: "2024 - 2026",
     Responsibilities: [
-      "Automating the extraction process of submission reports from primary banks’ data.",
-      "Developing an application using Django and React frameworks and using data visualization techniques to unveil valuable insights from the data of primary banks."
+      "Recipient of a full scholarship for master's studies.",
+      "Focused on mastering AI techniques, explainable AI (XAI), and machine learning methodologies."
     ]
   },
   {
-    Position: "Data Science Internship",
-    Company: "DataTuring",
-    Location: "Remote-Nouakchott/Mauritania",
-    Type: "Internship",
-    Duration: "May 2023 - Sept 2023",
+    Position: "Engineering Diploma in Data Science",
+    Company: "Higher Polytechnic School (ESP)",
+    Location: "Nouakchott, Mauritania",
+    Type: "Engineering Program",
+    Duration: "2021 - 2024",
     Responsibilities: [
-      "Conducted data collection surveys, employing both online and on-site methodologies.",
-      "Leveraged statistical analysis techniques to examine data thoroughly and applied XAI methodologies.",
-      "Developed interactive data dashboards for efficient data visualization and presentation."
+      "Recipient of a full scholarship for engineering studies.",
+      "Gained expertise in big data, predictive modeling, and data science project management."
     ]
   },
   {
-    Position: "Data Science Internship",
-    Company: "National Agency of Statistics, Demographic and Economic Analysis",
-    Location: "Nouakchott/Mauritania",
-    Type: "Internship",
-    Duration: "Dec 2022 - May 2023",
+    Position: "Preparatory Classes for Engineering Schools",
+    Company: "Institut Préparatoire aux Grandes Écoles d’Ingénieurs",
+    Location: "Nouakchott, Mauritania",
+    Type: "Non-Degree Program",
+    Duration: "2019 - 2021",
     Responsibilities: [
-      "Constructed a predictive model for assessing anemia probability.",
-      "Implemented efficient data preprocessing techniques."
-    ]
-  },
-  {
-    Position: "Discovery Internship",
-    Company: "National Social Security Fund",
-    Location: "Nouakchott/Mauritania",
-    Type: "Internship",
-    Duration: "Aug 2022 - Sept 2022",
-    Responsibilities: [
-      "Conducted GDP forecasting for Mauritania using statistical and economic modeling techniques.",
-      "Contributed to the development of a local ILO pension model, applying economic analysis."
+      "Completed an intensive two-year program in advanced mathematics, physics, and engineering sciences.",
+      "Developed strong analytical and problem-solving skills."
     ]
   }
 ];
 
-
-
+// Enter your Work Experience here
+export const workDetails = [
+  {
+    Position: "Data Engineering Intern",
+    Company: "Central Bank of Mauritania",
+    Location: "Nouakchott, Mauritania",
+    Type: "Internship",
+    Duration: "March 2024 - August 2024",
+    Responsibilities: [
+      "Automated data pipelines, reducing report generation time by 80%.",
+      "Standardized data structures to improve data quality and compliance.",
+      "Participated in team meetings to minimize errors in financial datasets."
+    ]
+  },
+  {
+    Position: "Data Science Intern",
+    Company: "DataTuring",
+    Location: "Remote",
+    Type: "Internship",
+    Duration: "May 2023 - September 2023",
+    Responsibilities: [
+      "Developed interpretable models predicting student success.",
+      "Applied XAI techniques to improve model transparency by 25%.",
+      "Created interactive RShiny dashboards to analyze trends in student performance."
+    ]
+  },
+  {
+    Position: "Exploration Intern",
+    Company: "National Social Security Fund",
+    Location: "Nouakchott, Mauritania",
+    Type: "Internship",
+    Duration: "August 2022 - September 2022",
+    Responsibilities: [
+      "Contributed to GDP forecasting models, enhancing budget planning accuracy by 12%.",
+      "Assisted in economic trend analyses for policy decision-making."
+    ]
+  }
+];
 
 
 export const extraCurricularActivities = [
   {
     name: "ESP Data Club (CLEF-AUF Member)",
     role: "Founder",
-    duration: "05/2022 - Present"
+    duration: "05/2022 - Present",
+    url: "https://www.esp-data-club.com/"
   },
   {
     name: "Mauritanian AI Community",
     role: "Executive Board Member",
-    duration: "01/2024 - Present"
+    duration: "01/2024 - Present",
+    url: "https://www.rim-ai.com/"
   },
   {
     name: "Global AI Hub",
     role: "Community Lead",
-    duration: "04/2022 - Present"
+    duration: "04/2022 - Present",
+    url: "https://www.globalaihub.com/"
   }
 ];
+
+
 
 export const achievements = [
 
