@@ -1,10 +1,10 @@
 import React from "react";
 import Work from "../Components/Work";
-import { personalDetails, eduDetails, workDetails,  extraCurricularActivities, achievements } from "../Details";
+import { personalDetails, eduDetails, workDetails, extraCurricularActivities, achievements } from "../Details";
 
 function About() {
   return (
-    <main className="container mx-auto max-width pt-10 pb-20 ">
+    <main className="container mx-auto max-width pt-10 pb-20">
       <section>
         <h1 className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
           About Me
@@ -49,9 +49,17 @@ function About() {
           Extra-Curricular Activities
         </h1>
         <ul className="list-disc ml-8">
-          {extraCurricularActivities.map(({ name, role, duration }) => (
-            <li>
-              <strong>{name}</strong> - {role}, {duration}
+          {extraCurricularActivities.map(({ name, role, duration, url }) => (
+            <li key={name}>
+              <a
+                href={url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-500 hover:underline"
+              >
+                <strong>{name}</strong>
+              </a>{" "}
+              - {role}, {duration}
             </li>
           ))}
         </ul>
@@ -62,7 +70,7 @@ function About() {
         </h1>
         <ul className="list-disc ml-8">
           {achievements.map(({ title, description }) => (
-            <li>
+            <li key={title}>
               <strong>{title}</strong> - {description}
             </li>
           ))}
