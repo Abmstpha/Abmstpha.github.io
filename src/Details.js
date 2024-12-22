@@ -131,7 +131,7 @@ export const extraCurricularActivities = [
   {
     name: "ESP Data Club (CLEF-AUF Member)",
     role: "Founder",
-    duration: "05/2022 - Present",
+    duration: "2021",
     url: "https://www.esp-data-club.com/"
   },
   {
@@ -274,6 +274,5 @@ export const projectDetails = [
 
 // Enter your Contact Details here
 export const contactDetails = {
-  email: "abdmstffa@gmail.com",
-  phone: "+222 00000000",
+  email: "abdmstffa@gmail.com"
 };
